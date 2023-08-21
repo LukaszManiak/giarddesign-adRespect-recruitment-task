@@ -667,10 +667,6 @@ video {
   height: 100vh;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .w-16{
   width: 4rem;
 }
@@ -905,8 +901,16 @@ video {
   padding: 3.5rem;
 }
 
+.p-16{
+  padding: 4rem;
+}
+
 .p-4{
   padding: 1rem;
+}
+
+.p-12{
+  padding: 3rem;
 }
 
 .px-10{
@@ -1353,10 +1357,6 @@ html {
 
   .sm\:self-center{
     align-self: center;
-  }
-
-  .sm\:p-12{
-    padding: 3rem;
   }
 }
 
