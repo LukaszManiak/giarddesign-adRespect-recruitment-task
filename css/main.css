@@ -679,10 +679,6 @@ video {
   width: 80%;
 }
 
-.w-4\/6{
-  width: 66.666667%;
-}
-
 .w-5{
   width: 1.25rem;
 }
@@ -923,11 +919,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1075,6 +1066,20 @@ video {
 
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+* p {
+  font-family: "Inter", sans-serif;
+}
+
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .arrow-container {
@@ -1089,9 +1094,9 @@ html {
 
 .options-container {
   position: absolute;
+  width: 100%;
   z-index: 50;
   top: 25px;
-  right: -30px;
 }
 
 .open-status {
@@ -1375,6 +1380,10 @@ html {
     width: 80%;
   }
 
+  .md\:w-5\/6{
+    width: 83.333333%;
+  }
+
   .md\:w-full{
     width: 100%;
   }
@@ -1382,14 +1391,6 @@ html {
   .md\:w-max{
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .md\:w-4\/6{
-    width: 66.666667%;
-  }
-
-  .md\:w-5\/6{
-    width: 83.333333%;
   }
 
   .md\:grid-cols-3{

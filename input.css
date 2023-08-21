@@ -6,8 +6,19 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
-
+* p {
+  font-family: "Inter", sans-serif;
+}
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
 .arrow-container {
   position: absolute;
   bottom: 0;
@@ -20,9 +31,9 @@ html {
 
 .options-container {
   position: absolute;
+  width: 100%;
   z-index: 50;
   top: 25px;
-  right: -30px;
 }
 
 .open-status {
