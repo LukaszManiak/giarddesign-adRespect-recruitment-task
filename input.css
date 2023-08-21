@@ -29,13 +29,6 @@ html {
   background-color: #111111;
   color: white;
 }
-@media (max-width: 768px) {
-  .options-container {
-    top: 25px;
-    left: 48%;
-    transform: translateX(-48%);
-  }
-}
 
 .ofert-container:hover .options-container {
   display: block;
@@ -66,11 +59,7 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-@media (max-width: 768px) {
-  .show-more-btn {
-    left: 40%;
-  }
-}
+
 .dark-mask {
   position: absolute;
   width: 100%;

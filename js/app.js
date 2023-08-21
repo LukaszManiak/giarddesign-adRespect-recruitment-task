@@ -57,17 +57,16 @@ searchBtn.addEventListener("click", () => {
 //showing and hiding pictures
 
 showBtn.addEventListener("click", () => {
-  if (showBtn.classList.contains("open")) {
+  if (showBtn.classList.contains("open-status")) {
     projectsGrid.style.maxHeight = "220vh";
     mask.style.display = "block";
     showBtn.innerHTML = `Rozwiń <img class="ml-2" src="icons/arrow-down-black.svg" alt="" />`;
-    showBtn.classList.remove("open-status ");
+    showBtn.classList.remove("open-status");
   } else {
     projectsGrid.style.maxHeight = "none";
     mask.style.display = "none";
     showBtn.innerHTML = "Zwiń";
-
-    showBtn.classList.add("open-status ");
+    showBtn.classList.add("open-status");
   }
 });
 
