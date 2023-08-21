@@ -687,6 +687,10 @@ video {
   width: 1.25rem;
 }
 
+.w-5\/6{
+  width: 83.333333%;
+}
+
 .w-full{
   width: 100%;
 }
@@ -909,11 +913,6 @@ video {
   padding: 1rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -922,6 +921,11 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-1{
@@ -1367,6 +1371,10 @@ html {
     width: 66.666667%;
   }
 
+  .md\:w-4\/5{
+    width: 80%;
+  }
+
   .md\:w-full{
     width: 100%;
   }
@@ -1374,6 +1382,14 @@ html {
   .md\:w-max{
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .md\:w-4\/6{
+    width: 66.666667%;
+  }
+
+  .md\:w-5\/6{
+    width: 83.333333%;
   }
 
   .md\:grid-cols-3{
