@@ -1111,7 +1111,7 @@ h6 {
   color: white;
 }
 
-.ofert-container:hover .options-container {
+.offer-container:hover .options-container {
   display: block;
 }
 
@@ -1148,6 +1148,8 @@ h6 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* modal window */
+
 .grid-photos-modal {
   z-index: 50;
   position: absolute;
@@ -1158,6 +1160,8 @@ h6 {
   width: 60vh;
   height: 60vh;
 }
+
+/* left and right modal buttons */
 
 .modal-left-btn {
   border: solid 3px #111111;
@@ -1189,6 +1193,8 @@ h6 {
 .modal-right-btn:hover {
   box-shadow: 0px 0px 0px 5px rgba(17, 17, 17, 1);
 }
+
+/* close modal button */
 
 .close-modal-btn {
   border: solid 3px #1b5b31;

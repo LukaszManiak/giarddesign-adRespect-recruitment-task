@@ -71,13 +71,13 @@ showBtn.addEventListener("click", () => {
 });
 
 const gridPhotos = document.querySelectorAll(".grid-item");
-console.log(gridPhotos);
-
 const darkMask = document.querySelector(".dark-mask");
 const gridPhotosModal = document.querySelector(".grid-photos-modal");
 const modalLeftBtn = document.querySelector(".modal-left-btn");
 const modalRightBtn = document.querySelector(".modal-right-btn");
 const closeModalBtn = document.querySelector(".close-modal-btn");
+
+// grid photos mechanics
 
 let currGridPhoto = 1;
 
@@ -112,11 +112,13 @@ modalLeftBtn.addEventListener("click", () => {
   updateModalPhotoSrc();
 });
 
+// update photo src
 function updateModalPhotoSrc() {
   const photoSrc = currGridPhoto < 9 ? "jpeg" : "jpg";
   modalPhoto.src = `images/photo${currGridPhoto}.${photoSrc}`;
 }
 
+// hamburger menu
 const menuBtn = document.querySelector(".menu-btn");
 const navMenu = document.querySelector(".menu");
 
