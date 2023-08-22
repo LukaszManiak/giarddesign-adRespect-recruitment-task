@@ -31,9 +31,17 @@ h6 {
 
 .options-container {
   position: absolute;
-  width: 100%;
+
   z-index: 50;
   top: 25px;
+  left: -60%;
+}
+
+@media (max-width: 768px) {
+  .options-container {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .open-status {
